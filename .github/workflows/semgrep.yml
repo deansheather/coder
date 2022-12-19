@@ -9,6 +9,7 @@ on:
   schedule:
   # random HH:MM to avoid a load spike on GitHub Actions at 00:00
   - cron: 51 14 * * *
+  workflow_dispatch:
 name: Semgrep
 jobs:
   semgrep:
